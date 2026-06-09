@@ -1,0 +1,115 @@
+:root {
+  --color-primary-light-blue: #2b7fff;
+  --color-primary-dark-blue: #011c44;
+  --color-primary-white: #ffffff;
+  --color-secondary-light-gray: #747272;
+  --color-secondary-dark-gray: #4a4a4a;
+  --color-secondary-dark-blue: #011f4a;
+}
+
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-primary-dark-blue);
+  margin: 0;
+}
+
+footer {
+  background-color: var(--color-primary-dark-blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section */
+.section {
+  padding: 48px 0;
+}
+
+.section-title .accent {
+  color: #2b7fff;
+}
+
+/* Navigation */
+.nav-link {
+  color: var(--color-primary-dark-blue);
+}
+
+.nav-link:hover {
+  color: var(--color-primary-light-blue);
+}
+
+/* Banner section */
+.banner-title {
+  color: var(--color-primary-light-blue);
+}
+
+.order-button {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-light-blue);
+  border: 1px solid var(--color-primary-light-blue);
+  border-radius: 32px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.banner-text {
+  color: var(--color-secondary-dark-gray);
+}
+
+/* Description section */
+.description-section {
+  padding-bottom: 176px;
+}
+
+.description-text .accent {
+}
+
+/* Advantages section */
+.advantages-section {
+  padding-top: 0;
+}
+
+/* Procedures section */
+.procedure-title {
+  color: var(--color-primary-white);
+}
+
+/* Location section */
+
+/* Footer */
+.footer-link {
+  color: var(--color-primary-white);
+}
+
+.footer-link:hover {
+  color: var(--color-primary-light-blue);
+}
+
+.address-copyright {
+  color: var(--color-secondary-light-gray);
+}
